@@ -1,11 +1,13 @@
 #cont{
     background-color: #2f9e2f;
-    margin-top: 0px;
+    /* margin-top: 0px; */
     height: 80px; 
     width: 100%;
     display: flex;
     justify-content: center;
     font-size: 10px;
+    text-align: center;
+    padding: 30px;
 }
 #lol{
     padding: 20px ;
