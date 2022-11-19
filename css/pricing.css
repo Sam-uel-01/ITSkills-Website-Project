@@ -1,0 +1,102 @@
+
+.price{
+    background-color:#5dd093 ;
+    width: 100%;
+    height: 100px;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+}
+.price>h1{
+    color:#0e3655 ;
+}
+
+.body>h2{ color:#0e3655 ;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.body>p{
+    line-height: 30px; font-size: 14px;
+    padding: 40px;
+}
+
+.planItems{
+    display: flex;
+    padding: 40px;
+}
+.plan1,.plan2,.plan3{
+    flex:1;
+    margin: 0px 15px;
+}
+.plan1a>p,
+.plan2a>p,
+.plan3a>p{
+    font-size: 25px;
+    color:#0e3655 ;
+}
+.plan1a,
+.plan2a,
+.plan3a{
+    background-color:#5dd093 ;
+padding: 30px 0px;
+text-align: center;
+}
+.plan1a>i,
+.plan2a>i,
+.plan3a>i{
+    color: white;
+}
+
+.plan1b,
+.plan2b,
+.plan3b{
+    background-color: antiquewhite;
+    text-align: center;
+    line-height: 30px;
+    color: grey;
+}
+
+.plan1b #naira,
+.plan2b #naira,
+.plan3b #naira{
+    font-weight: 600;
+    color: #0e3655;
+}
+
+.plan1c>.plan1d,
+.plan2c>.plan2d,
+.plan3c>.plan3d{
+    margin: 0 auto;
+    background-color: #5dd093;
+    width: 200px;
+    padding: 10px 0 10px 0;
+}
+
+.plan1c .plan1d a,
+.plan2c .plan2d a,
+.plan3c .plan3d a{
+    color: white;
+}
+
+.plan1c,
+.plan2c,
+.plan3c{
+    background-color:#0e3655 ;
+    color: #5dd093 ;
+text-align: center;
+padding: 10px;
+}
+/*
+
+*/
+
+@media (max-width:768px)
+{
+   .planItems{
+    flex-direction: column;
+   }
+   .plan1,.plan2,.plan3{
+    margin-bottom: 35px;
+   }
+}    
