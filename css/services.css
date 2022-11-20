@@ -1,3 +1,4 @@
+/* HEADER CSS */
 * {
   box-sizing: border-box;
   font-family: 'Open Sans', Arial, sans-serif;
@@ -84,8 +85,154 @@ header > nav > ul > li > a.active {
   display: none;
 }
 
-/* Footer CSS begins Here */
+/* _________________________________________________________________________________________________________________________ */
 
+/* _____________________________________________________________________________________________________________________________ */
+
+/* MAIN BODY CSS */
+body {
+  font-size: 14px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  padding: 0;
+  /* /* margin: 0; */
+}
+.first_section {
+  display: flex;
+  justify-content: center;
+  background-color: #5dd093;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+  padding: 40px;
+}
+
+.text_one {
+  /* height: 10px; */
+  /* margin: 30px; */
+  /* width: 100%; */
+  color: #0e3655;
+  /* background-color: #0e3655; */
+}
+.second_section {
+  justify-content: center;
+}
+.first_div {
+  padding: 100px;
+  padding-bottom: 0;
+}
+section > .first_div > p {
+  line-height: 30px;
+}
+.second_div {
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-between; */
+  padding: 0px 100px 30px 100px;
+  padding-top: 20px;
+  /* margin-bottom: -50px; */
+  gap: 20px;
+  /* background-color: red; */
+}
+.third_div {
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-between; */
+  padding: 100px;
+  padding-top: 0;
+  padding-bottom: 40px;
+  gap: 20px;
+}
+.fourth_div {
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  /* justify-content: space-between; */
+  padding: 100px;
+  padding-top: 0;
+  gap: 20px;
+  /* height: ; */
+}
+
+.icon {
+  background-color: rgb(60, 179, 113);
+  /* border: 1px solid ; */
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px;
+}
+.icon_text {
+  text-align: center;
+  padding: 40px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  border: 1px solid rgb(60, 179, 113);
+  line-height: 30px;
+}
+.image_container {
+  border: thin;
+  box-shadow: 0px 2px 1px 1px #d4d3d3;
+  /* background-color: red; */
+  /* border: 1px solid; */
+  /* height:auto; */
+}
+.image_one {
+  position: relative;
+  overflow: hidden;
+  background: url('/images/service1.jpg');
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: auto;
+}
+.image_two {
+  position: relative;
+  overflow: hidden;
+  background: url('/images/service2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: auto;
+}
+.image_three {
+  position: relative;
+  overflow: hidden;
+  background: url('/images/service3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: auto;
+}
+.image_text {
+  padding: 20px;
+  line-height: 30px;
+}
+.inner_text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: rgb(60, 179, 113);
+  /* text-align: center; */
+  background-color: #0e3655a6;
+  height: 45px;
+  padding: 8px 0px 0px 30px;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+/* _______________________________________________________________________________________________________________________________________ */
+
+/* ________________________________________________________________________________________________________________________________________- */
+
+/* FOOTER CSS */
 .footerContent {
   background: #0e3655;
   width: 100%;
@@ -130,6 +277,12 @@ footer > .footerCopyRight > .copyRight > p {
 footer > .footerCopyRight > .copyRight > p > span {
   color: #5dd093;
   font-size: 16px;
+}
+button {
+  border: 0;
+}
+button:hover {
+  background-color: rgb(125, 125, 255);
 }
 
 @media (max-width: 1024px) {
@@ -266,5 +419,29 @@ footer > .footerCopyRight > .copyRight > p > span {
 
   footer > .footerCopyRight > .copyRight > p > span {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .second_div {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .third_div {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 100%;
+    overflow-x: hidden;
+  }
+  .fourth_div {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 100%;
+    overflow-x: hidden;
   }
 }
