@@ -1,15 +1,310 @@
-main > section {
+main > .banner {
   background: url('../images/banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 450px;
+  height: 500px;
 }
-main > section::before {
+main > .banner::before {
   background: rgba(92, 207, 146, 0.75);
   content: '';
   position: absolute;
   display: block;
   width: 100%;
-  height: 450px;
+  height: 500px;
+}
+
+main > .chooseU-container {
+  background: #f5f5f5;
+  padding: 100px 70px;
+}
+
+main > .chooseU-container > .choose-us-heading > h1 {
+  font-size: 30px;
+  padding-bottom: 10px;
+  color: #0e3655;
+}
+
+main > .chooseU-container > .chooseUs {
+  display: flex;
+}
+
+main > .chooseU-container > .chooseUs > .choose-us-content > p {
+  line-height: 30px;
+  font-size: 14px;
+  color: #92999f;
+  font-weight: 500;
+}
+
+main > .chooseU-container > .chooseUs > .choose-us-content > ul {
+  padding: 30px 0px;
+}
+
+main > .chooseU-container > .chooseUs > .choose-us-content > ul > li > span {
+  line-height: 30px;
+  font-size: 14px;
+  color: #92999f;
+  font-weight: 500;
+}
+
+main > .chooseU-container > .chooseUs > .choose-us-content > ul > li > svg {
+  width: 30px;
+  height: 30px;
+  color: #5dd093;
+}
+.choose-us-content,
+.choose-us-image {
+  flex: 1;
+  margin-right: 20px;
+}
+main > .chooseU-container > .chooseUs > .choose-us-content > div > button {
+  background-color: #5dd093;
+  padding: 10px;
+  text-transform: uppercase;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  box-shadow: 1px 0px;
+}
+main > .chooseU-container > .chooseUs > .choose-us-image {
+  background: url('../images/about1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+}
+
+/* OUR SERVICES */
+main > .services {
+  background: #fff;
+  padding: 100px 70px;
+}
+main > .services > .services-heading {
+  text-align: center;
+  padding-bottom: 35px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+main > .services > .services-heading > h1 {
+  font-size: 30px;
+  padding-bottom: 10px;
+  color: #0e3655;
+}
+
+main > .services > .services-heading > P {
+  line-height: 30px;
+  font-size: 14px;
+  color: #92999f;
+  font-weight: 500;
+}
+main > .services > .services-content {
+  display: flex;
+}
+
+main > .services > .services-content > .serviceItem {
+  margin: 20px;
+  border: 1px solid #5dd093;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+  color: #92999f;
+  padding: 70px 30px;
+  flex: 1;
+}
+main > .services > .services-content > .serviceItem > .icon {
+  background: #5dd093;
+  border-radius: 50%;
+  width: 35%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+main > .services > .services-content > .serviceItem > .icon > svg {
+  width: 80px;
+  height: 80px;
+  color: #fff;
+  padding: 20px;
+}
+
+main > .services > .services-content > .serviceItem > hr {
+  width: 25%;
+  margin: 10px auto;
+  background-color: #5dd093;
+  border: 1px solid #5dd093;
+}
+
+/* OUR PROCESS */
+main .processes {
+  background: #0e3655;
+  padding: 100px 70px;
+}
+
+main > .processes > .processes-heading {
+  text-align: center;
+  padding-bottom: 35px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+main > .processes > .processes-heading > h1 {
+  font-size: 30px;
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+main > .processes > .processes-heading > P {
+  line-height: 30px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.fourth_div {
+  display: flex;
+  justify-content: center;
+  padding-top: 0;
+  gap: 20px;
+  padding: 50px 30px;
+}
+.image_container {
+  border: thin;
+  box-shadow: 0px 2px 1px 1px #d4d3d3;
+  background-color: #fff;
+  flex: 1;
+}
+
+.image_one {
+  position: relative;
+  overflow: hidden;
+  background: url('/images/service1.jpg');
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: auto;
+}
+.image_two {
+  position: relative;
+  overflow: hidden;
+  background: url('/images/service2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: auto;
+}
+.image_three {
+  position: relative;
+  overflow: hidden;
+  background: url('/images/service3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: auto;
+}
+.image_text {
+  padding: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  font-weight: 500;
+}
+.inner_text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: rgb(60, 179, 113);
+  background-color: #0e3655a6;
+  height: 45px;
+  padding: 8px 0px 0px 30px;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+/* OUR BUSINESS */
+main .our-business {
+  background: #fff;
+  padding: 100px 70px;
+}
+main > .our-business > .our-business-heading {
+  text-align: center;
+  padding-bottom: 35px;
+  width: 70%;
+  margin: 0 auto;
+}
+main > .our-business > .our-business-heading > h1 {
+  font-size: 30px;
+  padding-bottom: 10px;
+  color: #0e3655;
+}
+
+main > .our-business > .our-business-heading > P {
+  line-height: 30px;
+  font-size: 14px;
+  color: #92999f;
+}
+main > .our-business > .our-business-content {
+  display: flex;
+}
+main > .our-business > .our-business-content > .our-businessItem {
+  flex: 1;
+}
+main > .our-business > .our-business-content > .our-businessItem > p {
+  margin-bottom: 10px;
+  line-height: 25px;
+  font-size: 14px;
+  color: #92999f;
+}
+main > .our-business > .our-business-content > .our-business-image {
+  background: url('../images/about.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  main > .chooseU-container {
+    padding: 50px 25px;
+  }
+  main > .chooseU-container > .chooseUs {
+    flex-direction: column;
+  }
+
+  /* services */
+  main > .services {
+    padding: 50px 0px;
+  }
+
+  main > .services > .services-content {
+    flex-direction: column;
+  }
+
+  /* Processes */
+  main .processes {
+    padding: 50px 0px;
+  }
+  .fourth_div {
+    flex-direction: column;
+  }
+
+  /* Business */
+  main .our-business {
+    padding: 50px 0px;
+  }
+  main > .our-business > .our-business-content {
+    flex-direction: column;
+  }
+  main > .our-business > .our-business-content > .our-businessItem {
+    padding: 50px;
+  }
+  main > .our-business > .our-business-content > .our-business-image {
+    margin-right: 0px;
+  }
 }
