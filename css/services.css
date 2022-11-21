@@ -337,9 +337,9 @@ button:hover {
     flex-wrap: nowrap;
   }
 
-  footer > .footerContent > .content {
+  /* footer > .footerContent > .content {
     margin-right: 35px;
-  }
+  } */
 }
 
 @media (max-width: 768px) {
@@ -405,6 +405,7 @@ button:hover {
   .footerContent {
     flex-direction: column;
     text-align: center;
+    padding: 20px;
   }
   footer > .footerCopyRight {
     flex-direction: column;
