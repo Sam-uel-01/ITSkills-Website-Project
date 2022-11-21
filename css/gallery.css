@@ -192,7 +192,6 @@ img{
     /* Small Screens, Laptop */
     .first_div{
         line-height: 30px;
-        /* justify-content: center; */
         padding: 50px;
         padding-top: 20px;
         gap: 20px;
@@ -201,9 +200,11 @@ img{
         background-color: white;
         text-align: center;
         padding-bottom: 10px;
-        /* padding-top: 10px; */
-        /* width: 80%; */
         grid-template-rows: auto;
+    }
+    .image_div{
+            display: flex;
+            flex-direction: column;
     }
 
     .checkBtn {
