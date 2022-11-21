@@ -2,9 +2,24 @@
   body {
     line-height: 1.6em;
     color: #656565;
+    font-size: 14px;
+  }
+  main > .about_us{
+    text-align: center;
+   
+    background-color: #5dd093;
+    padding: 30px 0 ;
+    margin-bottom:50px ;
+    
+  }
+  main > .about_us h1{
+
+   
+    color: #0e3655;
   }
 
   main > .image_and_our_comapany {
+    display: flex;
     flex-wrap: wrap;
   }
   .image_and_our_comapany .company_image > img {
@@ -32,7 +47,9 @@
     margin: 20px 0 20px 0;
   }
   main .choose_solution_expertise {
+    display: flex;
     flex-wrap: wrap;
+    
   }
   .choose_solution_expertise .choose h2 {
     color: #0e3655;
@@ -51,6 +68,12 @@
   .solution {
     width: 90vw;
     margin: 0 auto;
+  }
+  .solution h2{
+ text-transform: capitalize;
+ color: #0e3655;
+    font-weight: 100;
+    margin: 20px 0 20px 0;
   }
   .solution_one_container {
     margin-bottom: 10px;
@@ -154,11 +177,142 @@
     width: 90vw;
     margin: 0 auto;
   }
+  .expertise .web > span {
+    color:#0e3655;
+  }
+
   .expertise .non_coloured_bar {
-    height: 20px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
-      rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
-      rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-      margin-bottom: 20px;
+    height: 6px;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 20px;
+   
+  }
+  .expertise .web{
+    margin-bottom: 20px;
+  }
+  .non_coloured_bar .coloured_bar_inside{
+    height: 10px;
+    width: 40%;
+    background-color:#ed5441;
+  }
+
+  .non_coloured_bar .coloured_bar_inside2{
+    height: 10px;
+    width: 50%;
+    background-color:#51d466;
+  }
+
+  .non_coloured_bar .coloured_bar_inside3{
+    height: 10px;
+    width: 80%;
+    background-color:#32c8de;
+  }
+
+  .non_coloured_bar .coloured_bar_inside4{
+    height: 10px;
+    width: 30%;
+    background-color:#428bca;;
+  }
+
+  .features_nav{
+    
+    width: 250px;
+   
+    margin: 0 auto;
+  }
+  .features_nav ul{
+    display: flex;
+    
+    width: 100%;
+  }
+  .features_nav ul li{
+    display: inline-block;
+    color: #0e3655;
+    flex: 1;
+    text-align: center;
+    
+    padding: 20px 15px 20px 15px;
+  }
+
+ 
+
+  .features_nav ul li:hover{
+    background-color:#0e3655;
+    color: white;
+    outline: 1px dotted rgb(255, 255, 255);
+    outline-offset: -2px;
+  }
+
+  .feature_news_testimonial .features_content{
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 20px;
+    border: 1px solid #d3d6d9;
+    margin: 0 auto 20px auto;
+    
+    width: 250px;
+  }
+  .feature_news_testimonial .features{
+    width: 90vw;
+    
+    margin: 0 auto;
+   
+  }
+  #test_one{
+    display: block;
+  }
+
+  #test_two{
+    display:none;
+  }
+
+  #test_three{
+    display: none;
+  }
+}
+
+@media (min-width:900px){
+
+
+  .image_and_our_comapany .company_image > img {
+    width: 50vw;
+    height: auto;
+  }
+  .image_and_our_comapany .company_image {
+    margin: 0 auto;
+    width: 45vw;
+    height: auto;
+    overflow: hidden;
+    border-radius: 2px;
+  }
+  .image_and_our_comapany .our_company_text {
+    text-align: justify;
+    width: 45vw;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .main .choose_solution_expertise{
+
+  }
+
+  .choose_solution_expertise .choose {
+    text-align: justify;
+    width: 28vw;
+    height: auto;
+    margin: 0 auto;
+  
+  }
+  .solution {
+    width: 28vw;
+    margin: 0 auto;
+   
+  }
+  .expertise {
+    width: 28vw;
+    margin: 0 auto;
+   
   }
 }
