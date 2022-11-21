@@ -222,6 +222,60 @@ footer > .footerCopyRight > .copyRight > p > span {
     transition: all 0.5s;
     z-index: 1;
   }
+  
+  footer > .footerContent > .content {
+    flex: 1;
+  }
+  
+  footer > .footerContent > .content > ul > li > a:hover,
+  footer > .footerContent > .content > p > a:hover {
+    color: #5dd093;
+  }
+  
+  footer > .footerContent > .content > ul > li > a,
+  footer > .footerContent > .content > p > a {
+    color: #92999f;
+  }
+  footer > .footerContent > .content > h5 {
+    color: #5dd093;
+    font-size: 15px;
+    margin: 15px 0px;
+  }
+  
+  footer > .footerCopyRight {
+    background: #0c314e;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  footer > .footerCopyRight > .copyRight > p {
+    color: #92999f;
+    font-size: 14px;
+  }
+  footer > .footerCopyRight > .copyRight > p > span {
+    color: #5dd093;
+    font-size: 16px;
+  }
+}
+  @media (max-width: 1024px) {
+    /* Small Screens, Laptop */
+    .first_div{
+        line-height: 30px;
+        padding: 50px;
+        padding-top: 20px;
+        gap: 20px;
+    }
+    .image_div > div {
+        background-color: white;
+        text-align: center;
+        padding-bottom: 10px;
+        grid-template-rows: auto;
+    }
+    .image_div{
+            display: flex;
+            flex-direction: column;
+    }
 
   header > nav > ul > li {
     display: block;
