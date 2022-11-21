@@ -162,6 +162,69 @@ main > .processes > .processes-heading > P {
   font-weight: 500;
 }
 
+.fourth_div {
+  display: flex;
+  justify-content: center;
+  padding-top: 0;
+  gap: 20px;
+  padding: 50px 30px;
+}
+.image_container {
+  border: thin;
+  box-shadow: 0px 2px 1px 1px #d4d3d3;
+  background-color: #fff;
+  flex: 1;
+}
+
+.image_one {
+  position: relative;
+  overflow: hidden;
+  background: url('/images/service1.jpg');
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: auto;
+}
+.image_two {
+  position: relative;
+  overflow: hidden;
+  background: url('/images/service2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: auto;
+}
+.image_three {
+  position: relative;
+  overflow: hidden;
+  background: url('/images/service3.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: auto;
+}
+.image_text {
+  padding: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  font-weight: 500;
+}
+.inner_text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: rgb(60, 179, 113);
+  background-color: #0e3655a6;
+  height: 45px;
+  padding: 8px 0px 0px 30px;
+  font-size: x-large;
+  font-weight: 700;
+}
+
 /* OUR BUSINESS */
 main .our-business {
   background: #fff;
@@ -226,6 +289,9 @@ main > .our-business > .our-business-content > .our-business-image {
   /* Processes */
   main .processes {
     padding: 50px 0px;
+  }
+  .fourth_div {
+    flex-direction: column;
   }
 
   /* Business */
